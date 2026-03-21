@@ -20,3 +20,4 @@
 
 - [x] task 02/1 getRectangleArea
 - [x] task 02/2 getCicleCircumference
+- [x] task 02/3 getAverage
