@@ -226,6 +226,35 @@ function isPrime(n) {
     }
 
     return true;
+
+    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex#find_the_index_of_the_first_prime_number_in_an_array
+
+    if (n < 2) {
+        return false;
+    }
+
+    if (n % 2 === 0) {
+        return n === 2;
+    }
+
+    for (let factor = 3; factor * factor <= n; factor += 2) {
+        if (n % factor === 0) {
+            return false;
+        }
+    }
+
+    return true;
+
+    // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex#пример_поиск_индекса_простого_числа_в_массиве
+
+    let start = 2;
+    while (start <= Math.sqrt(n)) {
+        if (n % start++ < 1) {
+            return false;
+        }
+    }
+
+    return n > 1;
 }
 
 /**
