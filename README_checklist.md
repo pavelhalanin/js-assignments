@@ -35,3 +35,4 @@
 
 - [x] task 03/1 parseDataFromRfc2822
 - [x] task 03/2 parseDataFromIso8601
+- [x] task 03/3 isLeapYear

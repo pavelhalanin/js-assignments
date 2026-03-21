@@ -56,7 +56,18 @@ function parseDataFromIso8601(value) {
  *    Date(2015,1,1)    => false
  */
 function isLeapYear(date) {
-   throw new Error('Not implemented');
+   // Leap year in Gregorian calendar:
+   // if february has 29 => true
+   // if february has not 29 => false
+   const D = new Date(date);
+   const YEAR = D.getFullYear();
+   const MONTH = D.getMonth();
+   const DAY = 29;
+   const NEW_DATE = new Date(YEAR, MONTH, DAY);
+   return NEW_DATE.getMonth() == MONTH;
+   // Wikipedia algoritm for leap year in Gregorian calendar:
+   const Y = new Date(date).getFullYear();
+   return Y % 400 == 0 || Y % 4 == 0 && Y % 100 !== 0;
 }
 
 
