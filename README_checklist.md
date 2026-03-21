@@ -47,3 +47,4 @@
 - [x] task 04/4 getArrayOfPositives
 - [x] task 04/5 getArrayOfStrings
 - [x] task 04/6 removeFalsyValues
+- [x] task 04/7 getUpperCaseStrings
