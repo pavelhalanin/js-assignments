@@ -4,6 +4,7 @@
   "description": "JS training tasks",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
+    "testcmd": "start_test_on_win.bat",
     "test-debug": "./node_modules/.bin/mocha --debug-brk"
   },
   "author": "aorgish",
