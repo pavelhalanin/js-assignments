@@ -19,3 +19,4 @@
 ## 02-numbers-tasks
 
 - [x] task 02/1 getRectangleArea
+- [x] task 02/2 getCicleCircumference
