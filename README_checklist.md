@@ -34,3 +34,4 @@
 ## 03-date-tasks
 
 - [x] task 03/1 parseDataFromRfc2822
+- [x] task 03/2 parseDataFromIso8601
