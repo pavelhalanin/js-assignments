@@ -37,3 +37,4 @@
 - [x] task 03/2 parseDataFromIso8601
 - [x] task 03/3 isLeapYear
 - [x] task 03/4 timeSpanToString
+- [x] task 03/5 angleBetweenClockHands

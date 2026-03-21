@@ -110,7 +110,22 @@ function timeSpanToString(startDate, endDate) {
  *    Date.UTC(2016,3,5,21, 0) => Math.PI/2
  */
 function angleBetweenClockHands(date) {
-    throw new Error('Not implemented');
+   const DATE = new Date(date);
+   const H = DATE.getUTCHours();
+   const M = DATE.getUTCMinutes();
+
+   // Wikipedia: The angle between the hands can be found using the following formula:
+   // Δθ = |θhr - θmin| = |0.5° * (60 * H + M) - 6° * M|
+   
+   let o = 0.5 * (60 * H + M) - 6 * M;
+
+   // Wikipedia: If the angle is greater than 180 degrees then subtract it from 360 degrees.
+   while (o > 180) {
+      o = Math.abs(360 - o);
+   }
+
+   const RADIAN_O = o * Math.PI / 180; // x° = x * π / 180 (radian)
+   return RADIAN_O;
 }
 
 
