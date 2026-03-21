@@ -38,3 +38,7 @@
 - [x] task 03/3 isLeapYear
 - [x] task 03/4 timeSpanToString
 - [x] task 03/5 angleBetweenClockHands
+
+## 04-arrays-tasks
+
+- [x] task 04/1 findElement
