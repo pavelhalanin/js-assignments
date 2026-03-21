@@ -22,3 +22,4 @@
 - [x] task 02/2 getCicleCircumference
 - [x] task 02/3 getAverage
 - [x] task 02/4 getDistanceBetweenPoints
+- [x] task 02/5 getLinearEquationRoot
