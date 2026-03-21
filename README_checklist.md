@@ -6,3 +6,4 @@
 - [x] test 01/4 extractNameFromTemplate
 - [x] test 01/5 getFirstChar
 - [x] test 01/6 removeLeadingAndTrailingWhitespaces
+- [x] test 01/7 repeatString
