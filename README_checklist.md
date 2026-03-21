@@ -24,3 +24,4 @@
 - [x] task 02/4 getDistanceBetweenPoints
 - [x] task 02/5 getLinearEquationRoot
 - [x] task 02/6 getAngleBetweenVectors
+- [x] task 02/7 getLastDigit
