@@ -26,3 +26,4 @@
 - [x] task 02/6 getAngleBetweenVectors
 - [x] task 02/7 getLastDigit
 - [x] task 02/8 parseNumberFromString
+- [x] task 02/9 getParallelipidedDiagonal
