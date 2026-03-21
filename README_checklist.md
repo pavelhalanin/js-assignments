@@ -10,3 +10,4 @@
 - [x] test 01/8 removeFirstOccurrences
 - [x] test 01/9 unbracketTag
 - [x] test 01/10 convertToUpperCase
+- [x] test 01/11 extractEmails
