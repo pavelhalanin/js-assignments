@@ -15,3 +15,7 @@
 - [x] test 01/13 encodeToRot13
 - [x] test 01/14 isString
 - [x] test 01/15 getCardId
+
+## 02-numbers-tasks
+
+- [x] task 02/1 getRectangleArea
