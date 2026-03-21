@@ -42,3 +42,4 @@
 ## 04-arrays-tasks
 
 - [x] task 04/1 findElement
+- [x] task 04/2 generateOdds

@@ -42,7 +42,12 @@ function findElement(arr, value) {
  *    5 => [ 1, 3, 5, 7, 9 ]
  */
 function generateOdds(len) {
-   throw new Error('Not implemented');
+   return Array.from(
+      { length: len },
+      function(element, index) {
+         return index * 2 + 1;
+      },
+   )
 }
 
 
