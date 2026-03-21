@@ -12,3 +12,4 @@
 - [x] test 01/10 convertToUpperCase
 - [x] test 01/11 extractEmails
 - [x] test 01/12 getRectangleString
+- [x] test 01/13 encodeToRot13

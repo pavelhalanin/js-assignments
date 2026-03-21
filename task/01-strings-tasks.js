@@ -225,7 +225,23 @@ function getRectangleString(width, height) {
  *
  */
 function encodeToRot13(str) {
-    throw new Error('Not implemented');
+    return `${str}`.split('').map(e => {
+        const CHAR_CODE = `${e}`.charCodeAt(0);
+
+        const IS_A_TO_M = (CHAR_CODE >= 65 && CHAR_CODE <= 77)
+                        || (CHAR_CODE >= 97 && CHAR_CODE <= 109);
+        if (IS_A_TO_M) {
+            return String.fromCharCode(CHAR_CODE + 13);
+        }
+
+        const IS_N_TO_Z = (CHAR_CODE >= 78 && CHAR_CODE <= 90)
+                        || (CHAR_CODE >= 110 && CHAR_CODE <= 122);
+        if (IS_N_TO_Z) {
+            return String.fromCharCode(CHAR_CODE - 13);
+        }
+
+        return e;
+    }).join('');
 }
 
 /**
