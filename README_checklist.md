@@ -45,3 +45,4 @@
 - [x] task 04/2 generateOdds
 - [x] task 04/3 doubleArray
 - [x] task 04/4 getArrayOfPositives
+- [x] task 04/5 getArrayOfStrings
