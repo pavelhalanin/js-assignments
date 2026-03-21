@@ -30,3 +30,7 @@
 - [x] task 02/10 roundToPowerOfTen
 - [x] task 02/11 isPrime
 - [x] task 02/12 toNumber
+
+## 03-date-tasks
+
+- [x] task 03/1 parseDataFromRfc2822
