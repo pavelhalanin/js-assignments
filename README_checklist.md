@@ -59,3 +59,4 @@
 - [x] task 04/16 propagateItemsByPositionIndex
 - [x] task 04/17 get3TopItems
 - [x] task 04/18 getPositivesCount
+- [x] task 04/19 sortDigitNamesByNumericOrder
