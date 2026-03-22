@@ -65,3 +65,4 @@
 - [x] task 04/22 findAllOccurences
 - [x] task 04/23 toStringList
 - [x] task 04/24 sortCitiesArray
+- [x] task 04/25 getIdentityMatrix
