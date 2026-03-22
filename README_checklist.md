@@ -57,3 +57,4 @@
 - [x] task 04/14 getMovingSum
 - [x] task 04/15 getSecondItems
 - [x] task 04/16 propagateItemsByPositionIndex
+- [x] task 04/17 get3TopItems
