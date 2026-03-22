@@ -70,3 +70,4 @@
 - [x] task 04/27 distinct
 - [x] task 04/28 group
 - [x] task 04/29 selectMany
+- [x] task 04/30 getElementByIndexes
