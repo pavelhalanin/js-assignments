@@ -62,3 +62,4 @@
 - [x] task 04/19 sortDigitNamesByNumericOrder
 - [x] task 04/20 getItemsSum
 - [x] task 04/21 getFalsyValuesCount
+- [x] task 04/22 findAllOccurences
