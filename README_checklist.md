@@ -50,3 +50,4 @@
 - [x] task 04/7 getUpperCaseStrings
 - [x] task 04/8 getStringsLength
 - [x] task 04/9 insertItem
+- [x] task 04/10 getHead
