@@ -66,3 +66,4 @@
 - [x] task 04/23 toStringList
 - [x] task 04/24 sortCitiesArray
 - [x] task 04/25 getIdentityMatrix
+- [x] task 04/26 getIntervalArray
