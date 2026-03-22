@@ -69,3 +69,4 @@
 - [x] task 04/26 getIntervalArray
 - [x] task 04/27 distinct
 - [x] task 04/28 group
+- [x] task 04/29 selectMany
