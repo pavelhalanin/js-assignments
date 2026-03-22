@@ -353,7 +353,13 @@ function get3TopItems(arr) {
  *   [ 1, '2' ] => 1
  */
 function getPositivesCount(arr) {
-   throw new Error('Not implemented');
+   return arr.reduce((count, element, index) => {
+      if (typeof element != 'number') {
+         return count;
+      }
+
+      return element > 0 ? count + 1 : count;
+   }, 0);
 }
  
 /** 
