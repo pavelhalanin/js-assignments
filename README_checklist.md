@@ -60,3 +60,4 @@
 - [x] task 04/17 get3TopItems
 - [x] task 04/18 getPositivesCount
 - [x] task 04/19 sortDigitNamesByNumericOrder
+- [x] task 04/20 getItemsSum
