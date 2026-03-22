@@ -599,7 +599,21 @@ function distinct(arr) {
  *   }
  */
 function group(array, keySelector, valueSelector) {
-   throw new Error('Not implemented');
+   return array.reduce(
+      (map, element, index) => {
+         const KEY = keySelector(element);
+         const VALUE = valueSelector(element);
+
+         if (!map.has(KEY)) {
+            map.set(KEY, []);
+         }
+
+         map.get(KEY).push(VALUE);
+
+         return map;
+      },
+      new Map(),
+   );
 }
 
 
