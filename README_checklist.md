@@ -55,3 +55,4 @@
 - [x] task 04/12 toCsvText
 - [x] task 04/13 toArrayOfSquares
 - [x] task 04/14 getMovingSum
+- [x] task 04/15 getSecondItems
