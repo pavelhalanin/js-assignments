@@ -52,3 +52,4 @@
 - [x] task 04/9 insertItem
 - [x] task 04/10 getHead
 - [x] task 04/11 getTail
+- [x] task 04/12 toCsvText
